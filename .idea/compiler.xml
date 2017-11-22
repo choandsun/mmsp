@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-hello" />
+        <module name="springboot-interceptor" />
+        <module name="springboot-mybatis" />
+        <module name="springboot-quartz" />
+        <module name="springboot-task" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mmsp" target="1.8" />
+      <module name="springboot-hello" target="1.8" />
+      <module name="springboot-interceptor" target="1.8" />
+      <module name="springboot-jsp" target="1.8" />
+      <module name="springboot-mybatis" target="1.8" />
+      <module name="springboot-quartz" target="1.8" />
+      <module name="springboot-task" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
